@@ -6,8 +6,8 @@
   "scripts": {
     "clean": "rm -rf dist",
     "start-dev": "webpack-dev-server --mode development --open --hot",
-    "build": "npm run clean && npm run start",
-    "start": "webpack --mode production --open",
+    "build": "npm run clean && webpack --mode production",
+    "start": "open dist/index.html ",
     "heroku-postbuild": "npm run build"
   },
   "repository": {
