@@ -7,7 +7,7 @@
     "clean": "rm -rf dist",
     "start-dev": "webpack-dev-server --mode development --open --hot",
     "build": "npm run clean && webpack --mode production",
-    "start": "xdg-open dist/index.html ",
+    "start": "node dist/index.js",
     "heroku-postbuild": "npm run build"
   },
   "repository": {
